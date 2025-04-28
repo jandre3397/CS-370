@@ -1,1 +1,12 @@
 # CS-370
+
+Project Reflection
+
+For this project, I was given a base framework that included the definition of the environment (the TreasureMaze class), the basic Deep Q-Learning structure, and some starting training code. However, much of the project required me to design and fine-tune the intelligent agent to perform well. I created my own training loop improvements, tuned hyperparameters like `epsilon` and learning rate decay, and wrote additional functionality to encourage the agent’s learning, such as adding bonus rewards when the agent successfully found the treasure. I also built a stronger model architecture using multiple hidden layers to improve the agent’s ability to predict better Q-values, which significantly improved training stability and performance.
+
+Throughout this course, I’ve learned how computer science is much more than just writing code — it’s about solving complex, real-world problems logically and efficiently. Computer scientists design solutions that automate, predict, and enhance human experiences, often in ways that are invisible but critical, from search engines to self-driving cars. In this project, I had to think like a computer scientist: I couldn't just guess my way through the maze — I needed to carefully plan the agent’s learning strategy, analyze where it was struggling, and adjust my approach step-by-step until it succeeded.
+
+My approach to solving problems as a computer scientist has grown into something methodical: define the problem clearly, break it into manageable parts, create a prototype solution, test it rigorously, and iterate based on what I learn. Debugging and adaptation are just as important as the initial coding! This project taught me that small improvements — like adjusting exploration rates or optimizing the neural network — can make a huge difference over time.
+
+Ethically, I also recognize that I have responsibilities both to the end user and the organization. As a developer of intelligent agents, it is important to ensure that systems behave safely, predictably, and fairly. Even though this project involved a simple maze, in the real world, reinforcement learning is used for sensitive applications like healthcare, autonomous vehicles, and financial decision-making. It’s critical that solutions are transparent, accountable, and that user trust is preserved. This mindset of responsible innovation will stay with me throughout my career.
+
